@@ -1,0 +1,24 @@
+{
+  "name": "excel-fabric-lakehouse-ui",
+  "version": "1.0.0",
+  "description": "UI interface connecting Excel Online with Microsoft Fabric Lakehouse",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 server.py",
+    "dev": "python3 server.py",
+    "serve": "npx serve ."
+  },
+  "keywords": [
+    "excel",
+    "fabric",
+    "lakehouse",
+    "microsoft",
+    "ui",
+    "data"
+  ],
+  "author": "Data Scientist",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
